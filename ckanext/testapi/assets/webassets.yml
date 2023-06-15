@@ -1,0 +1,14 @@
+# testapi-js:
+#   filter: rjsmin
+#   output: ckanext-testapi/%(version)s-testapi.js
+#   contents:
+#     - js/testapi.js
+#   extra:
+#     preload:
+#       - base/main
+
+# testapi-css:
+#   filter: cssrewrite
+#   output: ckanext-testapi/%(version)s-testapi.css
+#   contents:
+#     - css/testapi.css
